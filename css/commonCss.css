@@ -1,0 +1,92 @@
+/* commonCss.css */
+
+/* DEFAULTS */
+html{
+	height:100%;
+    font-size:100%;
+}
+body{
+	margin:0;
+	height:100%;
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+p{
+    margin:0;
+    font-size:1rem;
+    font-family:'Quattrocento Sans', sans-serif;
+}
+h1{
+	font-size:2rem;
+	margin:0;
+}
+img{
+    max-width:100%;
+    max-height:100%;
+}
+
+/* Classes */
+
+/* ID's */
+
+#top{
+	height:5%;
+	width:100%;
+	position:relative;
+    border-bottom:solid .1rem;
+}
+#adminText{
+    font-size:1rem;
+    font-weight:bold;
+}
+#content{
+    position:absolute;
+    top:5%;
+    right:0;
+    bottom:0;
+    left:0;
+    border-left:solid 1rem;
+    border-right:solid 1rem;
+    border-bottom:solid 1rem;
+}
+#adminLogin{
+    height:100%;
+    padding-left:.25rem;
+}
+#adminLoginButton{
+    height:100%;
+    position:absolute;
+    right:0;
+    bottom:0;
+    padding-right:1rem;
+	padding-top:.2rem;
+	padding-bottom:.2rem;
+}
+#homeButton{
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    padding-left:1rem;
+}
+#homeImg{
+    height:100%;
+    float:left;
+}
+#homeIcon{
+    height:100%;
+    position:relative;
+    float:left;
+    margin-top:.4rem;
+    margin-left:.5rem;
+}
+#homeColor svg{
+    width:1.5rem;
+    height:auto;
+}
+#leftWrap{
+    float:left;
+}
+#rightWrap{
+    float:left;
+    height:100%;
+}

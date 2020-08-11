@@ -1,0 +1,139 @@
+/* colorConfig.css */
+
+/* Default OBJs */
+p, h1{
+    color:black;
+}
+
+/* adminCss Colors */
+input{ 
+	background-color: white;
+}
+hr{
+	border-color:white;
+}
+
+/* Classes */
+
+/*adminCss Colors*/
+.navBar, .popupAlert, .navForm{
+	background-color:#67B8DE;
+}
+.navBar{
+	border-color:#3399CC;
+}
+.navBar:active, .navBar:hover{
+	background-color:#91C9E8;
+	border-color:#67B8DE;
+}
+.navForm{
+	border-color:#3399CC;
+}
+.sideNav{
+	background-color:black;
+}
+.raffleWin{
+	background-color:black;
+}
+.formDef{
+	background-color: #B4DCED;
+}
+
+/* checkinCss Colors */
+.radioButtons span.radio::before {
+    background-color:#3399CC;
+}
+.radioButtons span.radio::after{
+    background-color:#B4DCED;
+}
+input[type="radio"]:checked + label span.radio::after{
+    background-color:#3399CC;
+}
+.radioLabel{
+	color:black;
+}
+
+/* ID's */
+
+/* commonCss Colors */
+#top{
+    border-color:lightgrey;
+}
+#adminText{
+    color:black;
+}
+#content{
+    border-color:white;
+}
+#homeColor{
+	color:black;
+	fill:currentColor;
+}
+
+/* indexCss Colors */
+#left{
+	background-color:#67B8DE;
+}
+#right{
+	background-color:#91C9E8;
+}
+#register:hover, #checkin:hover, #register:active, #checkin:active{
+	background-color:#B4DCED;
+}
+
+/* adminCss Colors */
+#buttonContainer{
+	background-color:#67B8DE;
+}
+#fileBrowserFormat{
+	background-color:#67B8DE;
+}
+#logoBrowserFormat{
+	background-color:#67B8DE;
+}
+#logoutButton{
+    border-color:#3399CC;
+}
+#phpContent{
+	background-color:white;
+}
+#importButton{
+	background-color:#3399CC;
+}
+#themeButton{
+	background-color:#3399CC;
+}
+#raffle{
+	border-color:lightgrey;
+}
+#raffleLabel{
+	background-color:#67B8DE;
+	border-color:lightgrey;
+}
+#raffle{
+	background-color:#B4DCED;
+}
+
+/* checkinCss Colors */
+#credsForm{
+	background-color: #B4DCED;
+}
+#formHeader{
+	color: white;
+	background-color: #3399CC;
+}
+#drawingRadio{
+    color:grey;
+}
+#loginButton {
+  	box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+	background-color: #3399CC;
+	color: white;
+}
+
+/* CUSTOM */
+
+/* adminCss Colors */
+::-webkit-input-placeholder {
+	color: rgba(132, 132, 132, 0.65);
+}

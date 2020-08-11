@@ -1,0 +1,136 @@
+/* registrationCss.css */
+
+/* DEFAULTS */
+h1{
+	position:relative;
+}
+form{
+	text-align:center;
+}
+input { 
+	border: none;
+	width: 100%;
+	margin-bottom: .2rem;
+}
+hr{
+	display:block;
+    margin:0;
+}
+
+/* Classes */
+.section input[type="radio"]{
+    display:none;
+}
+.radioButtons span::before, .radioButtons span::after{
+    content:'';
+    position:absolute;
+    top:0;
+    bottom:0;
+    margin:auto;
+}
+.radioButtons span.radio:hover{
+    cursor:pointer;
+}
+.radioButtons span.radio::before {
+    left:-27px;
+    width:25px;
+    height:25px;
+    border-radius:50px;
+}
+.radioButtons span.radio::after{
+    left:-23px;
+    width:17px;
+    height:17px;
+    border-radius:10px;
+    transition: background-color .25s;
+}
+.radioButtons label{
+    position:relative;
+}
+.radioLabel{
+    font-size:1.25rem;
+}
+.sideNav{
+	height:100%;
+	width:0;
+	position:fixed;
+	z-index:1;
+	top:0;
+	left:0;
+	overflow-x:hidden;
+	transition:0.5s;
+	padding-top:60px;
+}
+.sideNav .closeBtn{
+	position:absolute;
+	top:0;
+	right:25px;
+	font-size:50px;
+	margin-left:50px;
+	color:white;
+}
+
+/* ID's */
+
+#content{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+#credsForm{
+	border-radius: 7px;
+}
+#fields{
+	font-size: 1.5rem;
+	margin-left: .5em;
+	margin-right: .5em;
+    padding:.2rem;
+    padding-top:.5rem;
+}
+#formHeader{
+	padding-top: .2em;
+	padding-bottom: .2em;
+	font-size: 2rem;
+	margin: 0;
+}
+#drawingRadio{
+    font-size:1.5rem;
+    margin-top:.5rem;
+}
+#yesLabel{
+    padding-right:25px;
+}
+#loginButton {
+	width:100%;
+	font-size: .8em;
+	position:relative;
+	display:block;
+	border-radius: 2px;
+	margin: 1em auto .5em;
+	padding-left: 0;
+	overflow: hidden;
+	border-width: 0;
+	outline: none;
+    cursor:pointer;
+}
+
+/* CUSTOM */
+::-webkit-input-placeholder {
+    padding-left: 4px;
+    font-size: .7em;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+   opacity: 0.1%;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+   opacity: 0.1%;
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+   opacity: 0.1%;
+}
